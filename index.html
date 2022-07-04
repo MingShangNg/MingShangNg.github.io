@@ -1,48 +1,78 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>My blog post</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter&family=Karla:wght@800&family=Lato:wght@400;900&family=Lora:ital,wght@1,700&family=Merriweather:ital@0;1&family=Roboto:wght@300;900&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
     <link href="./styles/index.css" rel="stylesheet" type="text/css" />
+    <title>Ming Shang's Blogs</title>
+  </head>
+
   <body>
     <header>
-      <div class="container container-nav">
-        <div class="site-title">
-          <h1>Ming's Blog</h1>
+      <div class="container container-flex" id="top-page">
+        <div class="logo">
+          <img src="image/bloglogo.png" alt="logo picture" class="logo-image" />
         </div>
         <nav>
           <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li>
-              <a href="#">Blog Posts</a>
-              <ul>
-                <li><a href="./blog/identity-values.html">Identity Values</a></li>
-                <li><a href="./blog/learning-plan.html">Learning Plan</a></li>
-                <li><a href="./blog/html-css.html">CSS Box Model</a></li>
-                <li>
-                  <a href="./blog/emotional-intelligence.html"git s
-                    >Emotional Intelligence
-                  </a>
-                </li>
-                <li><a href="./blog/javascript-dom.html">JavaScript</a></li>
-                <li><a href="./blog/neuroplasticity.html">Neuroplasticity</a></li>
-                <li><a href="./blog/problem-solving.html">Problem Solving</a></li>
-              </ul>
-            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#Blog">My Blog Post</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    
+
     <div class="container">
       <main>
-        <h2>Home</h2>
-        <p>Hello and Welcome!! This is the beginning of my website home page.</p>
+        <h1>Welcome to my Blog</h1>
+        <img
+          src="./image/MarathonStart.jpg"
+          alt="Wellington MarathonStart"
+          class="main-image"
+        />
+        <p>
+          Hello, my name is Ming Shang Ng. I from Wellington and welcome to my
+          blog.
+        </p>
 
-        <h2>My Blog Post</h2>
-        <p>This will eventually contain a lost of links to all my blogs.</p>
-
+        <h2 id="Blog">My Blog Post</h2>
+        <div class="container-flex">
+          <div class="col-one">
+            <img
+              src="./image/running1.png "
+              alt="two people running"
+              class="blog-image"
+            />
+            <a href="./blog/identity-values.html">Identity-Values</a>
+          </div>
+          <div class="col-two">
+            <img
+              src="./image/thinking.jpg"
+              alt="a stickman is thinking"
+              class="blog-image"
+            />
+            <a href="./blog/learning-plan.html">Learning Plan</a>
+          </div>
+          <div class="col-three">
+            <img
+              src="./image/cssboxmodel.png"
+              alt="CSS boxmodel"
+              class="blog-image"
+            />
+            <a href="./blog/html-css.html">CSS Box Model</a>
+          </div>
+        </div>
       </main>
     </div>
-    
-
+    <footer>
+      <nav>
+        <a href="#top-page">Back to top</a>
+      </nav>
+    </footer>
   </body>
 </html>
