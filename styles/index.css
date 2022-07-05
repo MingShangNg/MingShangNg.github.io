@@ -71,6 +71,7 @@ footer {
     margin-top: 1em;
     padding: 2em 0;
 }
+
 /* navigation */
 
 nav ul {
@@ -138,3 +139,13 @@ nav a:focus {
     }
 }
 
+@media (max-width: 320px) {
+    header {
+        background: rgb(15, 176, 240);
+    }
+    
+    footer {
+            background: rgb(15, 176, 240);
+            
+    }
+}
