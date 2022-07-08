@@ -104,14 +104,22 @@ nav a:focus {
     border: 1rem solid rgb(7, 7, 240);
 }
 
-.col-two {
+.col-five {
+    border: 1rem solid rgb(7, 7, 240);
+}
+
+.col-three {
+    border-left: 1rem solid rgb(7, 7, 240);
+    border-right: 1rem solid rgb(7, 7, 240);
+}
+
+
+.col-two, .col-three, .col-four {
     border-top: 1rem solid rgb(7, 7, 240);
     border-bottom: 1rem solid rgb(7, 7, 240);
 }
 
-.col-three {
-    border: 1rem solid rgb(7, 7, 240);
-}
+
 
 /* media query */
 
@@ -131,7 +139,7 @@ nav a:focus {
         margin: .5em 0;
     }
 
-    .col-two {
+    .col-two, .col-four {
         border-top: none;
         border-bottom: none;
         border-right: 1rem solid rgb(7, 7, 240);
