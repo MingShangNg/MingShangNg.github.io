@@ -104,17 +104,17 @@ nav a:focus {
     border: 1rem solid rgb(7, 7, 240);
 }
 
-.col-five {
+.col-seven {
     border: 1rem solid rgb(7, 7, 240);
 }
 
-.col-three {
+.col-three, .col-five {
     border-left: 1rem solid rgb(7, 7, 240);
     border-right: 1rem solid rgb(7, 7, 240);
 }
 
 
-.col-two, .col-three, .col-four {
+.col-two, .col-three, .col-four, .col-five, .col-six {
     border-top: 1rem solid rgb(7, 7, 240);
     border-bottom: 1rem solid rgb(7, 7, 240);
 }
@@ -139,7 +139,7 @@ nav a:focus {
         margin: .5em 0;
     }
 
-    .col-two, .col-four {
+    .col-two, .col-four, .col-six {
         border-top: none;
         border-bottom: none;
         border-right: 1rem solid rgb(7, 7, 240);
