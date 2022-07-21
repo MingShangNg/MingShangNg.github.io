@@ -105,6 +105,10 @@ nav a:focus {
 }
 
 .col-seven {
+    border-left: 1rem solid rgb(7, 7, 240);
+}
+
+.col-eight {
     border: 1rem solid rgb(7, 7, 240);
 }
 
@@ -114,7 +118,7 @@ nav a:focus {
 }
 
 
-.col-two, .col-three, .col-four, .col-five, .col-six {
+.col-two, .col-three, .col-four, .col-five, .col-six, .col-seven {
     border-top: 1rem solid rgb(7, 7, 240);
     border-bottom: 1rem solid rgb(7, 7, 240);
 }
@@ -138,7 +142,10 @@ nav a:focus {
     nav li {
         margin: .5em 0;
     }
-
+    .col-seven {
+        border-right: 1rem solid rgb(7, 7, 240);
+        border-bottom: none;
+    }
     .col-two, .col-four, .col-six {
         border-top: none;
         border-bottom: none;
